@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "project": "node ./index.js"
+    "project": "node ./src/index.js",
+    "data": "node ./src/indexRest.js"
   },
   "keywords": [],
   "author": "Gregson <gregoryinnovo@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "moment": "^2.29.1",
     "mongodb": "^4.1.3",
+    "mongoose": "^6.0.10",
+    "morgan": "^1.10.0",
     "mqtt": "^4.2.8"
   }
 }
