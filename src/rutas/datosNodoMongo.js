@@ -20,13 +20,13 @@ router.get("/nodos", (req, res) => {
 });
 
 router.get("/nodos/:nodo", (req, res) => {
-  var id = req.params.idnodo; //recogemos el parámetro enviado en la url
+  let id = req.params.nodo; //recogemos el parámetro enviado en la url
   MongoClient.connect(url, function (err, db) {
     if (err) throw err;
     var dbo = db.db("MioDatos");
-    var query = {};
-    query.idnodo = parseInt(id);
-    //console.log(query);
+    var query = { "id-mio-node": id };
+
+    // console.log(query);
     dbo
       .collection("datosNodo")
       .find(query)
