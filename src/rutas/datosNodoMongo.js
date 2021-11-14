@@ -11,9 +11,12 @@ router.get("/nodos", (req, res) => {
       .collection("datosNodo")
       .find({})
       .toArray(function (err, result) {
-        if (err) throw err;
-        console.log(result);
-        res.json(result);
+        if (err) {
+          throw err;
+        } else {
+          console.log(result);
+          res.json(result);
+        }
         db.close();
       });
   });
@@ -21,6 +24,7 @@ router.get("/nodos", (req, res) => {
 
 router.get("/nodos/:nodo", (req, res) => {
   let id = req.params.nodo; //recogemos el parámetro enviado en la url
+  let dataJson;
   MongoClient.connect(url, function (err, db) {
     if (err) throw err;
     var dbo = db.db("MioDatos");
@@ -39,20 +43,20 @@ router.get("/nodos/:nodo", (req, res) => {
   });
 });
 
-router.post("/datosm", (req, res) => {
-  console.log(req.body);
-  var json2 = req.body;
+// router.post("/datosm", (req, res) => {
+//   console.log(req.body);
+//   var json2 = req.body;
 
-  MongoClient.connect(url, function (err, db) {
-    if (err) throw err;
-    var dbo = db.db("CaliDatos");
-    dbo.collection("datosNodo").insertOne(json2, function (err, res) {
-      if (err) throw err;
-      console.log("1 document inserted");
-      db.close();
-    });
-  });
-  res.send("dato insertado");
-});
+//   MongoClient.connect(url, function (err, db) {
+//     if (err) throw err;
+//     var dbo = db.db("CaliDatos");
+//     dbo.collection("datosNodo").insertOne(json2, function (err, res) {
+//       if (err) throw err;
+//       console.log("1 document inserted");
+//       db.close();
+//     });
+//   });
+//   res.send("dato insertado");
+// });
 
 module.exports = router;
