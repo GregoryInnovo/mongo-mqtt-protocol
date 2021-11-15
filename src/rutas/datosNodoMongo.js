@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 var MongoClient = require("mongodb").MongoClient;
-var url = "mongodb://localhost:27017/";
+var url = "mongodb://ec2-54-90-171-212.compute-1.amazonaws.com:27017/";
 
 router.get("/nodos", (req, res) => {
   MongoClient.connect(url, function (err, db) {
