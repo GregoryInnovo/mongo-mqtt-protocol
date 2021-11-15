@@ -1,0 +1,156 @@
+DATOS
+
+----------E21----------
+
+{
+  "id-mio-node": "E21-CAB-345",
+  "variables": [
+    {
+      "pasajeros":  16,
+      "estacion": 20
+    }
+
+  ],
+"alerta":  "La capacidad maxima ha sido superada"
+}
+
+
+{
+  "id-mio-node": "E21-CAB-345",
+  "variables": [
+    {
+      "pasajeros":  9,
+      "estacion": 23
+    }
+
+  ]
+}
+
+
+{
+  "id-mio-node": "E21-CAB-345",
+  "variables": [
+    {
+      "pasajeros":  11,
+      "estacion": 16
+    }
+
+  ],
+"alerta":  "La capacidad maxima ha sido superada"
+}
+
+----------T31----------
+
+
+{
+  "id-mio-node": "T31-CMI-765",
+  "variables": [
+    {
+      "pasajeros":  9,
+      "estacion": 11
+    }
+
+  ]
+}
+
+{
+  "id-mio-node": "T31-CMI-765",
+  "variables": [
+    {
+      "pasajeros":  11,
+      "estacion": 12
+    }
+
+  ],
+"alerta":  "La capacidad maxima ha sido superada"
+}
+
+{
+  "id-mio-node": "T31-CMI-765",
+  "variables": [
+    {
+      "pasajeros":  17,
+      "estacion": 13
+    }
+
+  ],
+"alerta":  "La capacidad maxima ha sido superada"
+}
+
+{
+  "id-mio-node": "T31-CMI-765",
+  "variables": [
+    {
+      "pasajeros":  5,
+      "estacion": 14
+    }
+
+  ]
+}
+
+
+----------CO1----------
+{
+  "id-mio-node": "CO1-CPZ-612",
+  "variables": [
+    {
+      "pasajeros":  3,
+      "estacion": 0
+    }
+
+  ]
+}
+
+
+{
+  "id-mio-node": "CO1-CPZ-612",
+  "variables": [
+    {
+      "pasajeros":  5,
+      "estacion": 4
+    }
+
+  ]
+}
+
+{
+  "id-mio-node": "CO1-CPZ-612",
+  "variables": [
+    {
+      "pasajeros":  7,
+      "estacion": 16
+    }
+
+  ]
+}
+
+{
+  "id-mio-node": "CO1-CPZ-612",
+  "variables": [
+    {
+      "pasajeros":  16,
+      "estacion": 19
+    }
+
+  ],
+  "alerta":  "La capacidad maxima ha sido superada"
+}
+
+
+
+
+
+{
+  "id-mio-node": "A13A-CPS-612",
+  "variables": [
+    {
+      "pasajeros":  16,
+      "estacion": 22
+    }
+
+  ],
+  "alerta":  "La capacidad maxima ha sido superada"
+}
+
+
+

@@ -1,18 +1,11 @@
 var mqtt = require("mqtt");
 var client = mqtt.connect("mqtt://localhost");
-const mysql = require("mongodb");
 var moment = require("moment");
-/* const express = require("express");
-const port = 4000;
-const app = express();
-const mongoose = require("mongoose");
-mongoose.connect('mongodb://localhost:27017/', {useNewUrlParser: true});
 
-app.listen(port, () => console.log(`listening on port ${port}`)) */
 var MongoClient = require("mongodb").MongoClient;
 var url = "mongodb://localhost:27017/";
 
-console.log("Await for data...");
+console.log("Waiting for data...");
 
 client.on("connect", function () {
   client.subscribe("topico1", function (err) {
