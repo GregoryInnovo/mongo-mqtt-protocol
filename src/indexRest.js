@@ -5,7 +5,9 @@ const cors = require("cors");
 
 const datosNodoMongo = require("./rutas/datosNodoMongo.js");
 // settings
-app.set("port", 3000); //se define el puerto en el cual va a funcionar el servidro
+const port = process.env.PORT;
+console.log("el puerto es", port);
+app.set("port", port); //se define el puerto en el cual va a funcionar el servidro
 
 // Utilities
 app.use(morgan("dev")); //se indica que se va a usar morgan en modo dev
