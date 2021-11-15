@@ -12,14 +12,14 @@ app.listen(port, () => console.log(`listening on port ${port}`)) */
 var MongoClient = require("mongodb").MongoClient;
 var url = "mongodb://localhost:27017/";
 
+console.log("Await for data...");
+
 client.on("connect", function () {
-  
   client.subscribe("topico1", function (err) {
     if (err) {
       console.log("error en la subscripcion");
     }
   });
-  
 });
 
 client.on("message", function (topic, message) {
