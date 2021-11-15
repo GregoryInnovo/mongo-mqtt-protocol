@@ -15,6 +15,6 @@ app.use(cors());
 //Routes
 app.use(datosNodoMongo);
 
-app.listen(app.get("port"), "ec2-54-90-171-212.compute-1.amazonaws.com", () => {
+app.listen(app.get("port"), "172.31.29.249", () => {
   console.log(`Servidor funcionando en ${app.get("port")}`);
 }); //se inicia el servidor en el puerto definido y se pone un mensaje en la consola.

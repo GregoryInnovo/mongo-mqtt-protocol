@@ -1,9 +1,9 @@
 var mqtt = require("mqtt");
-var client = mqtt.connect("mqtt://ec2-54-90-171-212.compute-1.amazonaws.com");
+var client = mqtt.connect("mqtt://localhost");
 var moment = require("moment");
 
 var MongoClient = require("mongodb").MongoClient;
-var url = "mongodb://ec2-54-90-171-212.compute-1.amazonaws.com:27017/";
+var url = "mongodb://localhost:27017/";
 
 console.log("Waiting for data...");
 
