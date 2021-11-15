@@ -34,6 +34,8 @@ router.get("/nodos/:nodo", (req, res) => {
     dbo
       .collection("datosNodo")
       .find(query)
+      .sort({ fechaHora: -1 })
+      .limit(1)
       .toArray(function (err, result) {
         if (err) throw err;
         console.log(result);

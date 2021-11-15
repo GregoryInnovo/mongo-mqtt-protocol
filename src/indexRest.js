@@ -15,7 +15,11 @@ app.use(cors());
 //Routes
 app.use(datosNodoMongo);
 
-//Start server
+/**
+ * @params
+ *
+ * Start server
+ */
 app.listen(app.get("port"), "192.168.1.10", () => {
   console.log(`Servidor funcionando en ${app.get("port")}`);
 }); //se inicia el servidor en el puerto definido y se pone un mensaje en la consola.
