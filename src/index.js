@@ -1,9 +1,9 @@
 var mqtt = require("mqtt");
-var client = mqtt.connect("mqtt://54.90.171.212");
+var client = mqtt.connect("mqtt://172.31.29.249");
 var moment = require("moment");
 
 var MongoClient = require("mongodb").MongoClient;
-var url = "mongodb://54.90.171.212:27017/";
+var url = "mongodb://172.31.29.249:27017/";
 
 console.log("Waiting for data...");
 
