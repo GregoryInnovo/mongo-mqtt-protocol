@@ -5,7 +5,7 @@ const cors = require("cors");
 
 const datosNodoMongo = require("./rutas/datosNodoMongo.js");
 // settings
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 console.log("el puerto es", port);
 app.set("port", port); //se define el puerto en el cual va a funcionar el servidro
 
