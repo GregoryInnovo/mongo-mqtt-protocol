@@ -41,8 +41,10 @@ client.on("message", function (topic, message) {
       let value1 = String(json1.variables[0]["pasajeros"]);
       let value2 = String(json1.variables[0]["estacion"]);
       let variables = `${value1}-${value2}`;
+      console.log("part1");
+
       tempConn.query(
-        "INSERT INTO datosNodo VALUES(null, ?, ?,?,?)",
+        "INSERT INTO datosnodo VALUES(null, ?, ?,?,?)",
         [json1.id_mio_node, variables, json1.alerta, json1.fechaHora],
         function (error, result) {
           //se ejecuta la inserción
@@ -56,6 +58,7 @@ client.on("message", function (topic, message) {
           //client.end()  //si se habilita esta opción el servicio termina
         }
       );
+      console.log("part2");
     }
   });
 });

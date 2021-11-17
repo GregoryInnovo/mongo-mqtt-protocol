@@ -25,7 +25,7 @@ router.get("/nodos", (req, res) => {
     } else {
       console.log("Conexion correcta.");
       //ejecución de la consulta
-      tempConn.query("SELECT * FROM datosNodo", function (error, result) {
+      tempConn.query("SELECT * FROM datosnodo", function (error, result) {
         let resultado = result; //se almacena el resultado de la consulta en la variable resultado
         if (error) {
           throw error;
