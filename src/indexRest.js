@@ -4,6 +4,7 @@ const morgan = require("morgan"); //se indica que se requiere morgan
 const cors = require("cors");
 
 const datosNodoMongo = require("./rutas/datosNodoMongo.js");
+const datosNodoMysql = require("./rutas/datosNodoMysql.js");
 // settings
 const port = process.env.PORT || 3000;
 console.log("el puerto es", port);
@@ -16,6 +17,7 @@ app.use(cors());
 
 //Routes
 app.use(datosNodoMongo);
+app.use(datosNodoMysql);
 
 app.listen(app.get("port"), () => {
   console.log(`Servidor funcionando en ${app.get("port")}`);

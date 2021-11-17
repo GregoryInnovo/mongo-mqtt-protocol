@@ -3,7 +3,7 @@ DATOS
 ----------E21----------
 
 {
-  "id-mio-node": "E21-CAB-345",
+  "id_mio_node": "E21-CAB-345",
   "variables": [
     {
       "pasajeros":  16,
@@ -16,7 +16,7 @@ DATOS
 
 
 {
-  "id-mio-node": "E21-CAB-345",
+  "id_mio_node": "E21-CAB-345",
   "variables": [
     {
       "pasajeros":  9,
@@ -28,7 +28,7 @@ DATOS
 
 
 {
-  "id-mio-node": "E21-CAB-345",
+  "id_mio_node": "E21-CAB-345",
   "variables": [
     {
       "pasajeros":  11,
@@ -43,7 +43,7 @@ DATOS
 
 
 {
-  "id-mio-node": "T31-CMI-765",
+  "id_mio_node": "T31-CMI-765",
   "variables": [
     {
       "pasajeros":  9,
@@ -54,7 +54,7 @@ DATOS
 }
 
 {
-  "id-mio-node": "T31-CMI-765",
+  "id_mio_node": "T31-CMI-765",
   "variables": [
     {
       "pasajeros":  11,
@@ -66,7 +66,7 @@ DATOS
 }
 
 {
-  "id-mio-node": "T31-CMI-765",
+  "id_mio_node": "T31-CMI-765",
   "variables": [
     {
       "pasajeros":  17,
@@ -78,7 +78,7 @@ DATOS
 }
 
 {
-  "id-mio-node": "T31-CMI-765",
+  "id_mio_node": "T31-CMI-765",
   "variables": [
     {
       "pasajeros":  5,
@@ -91,7 +91,7 @@ DATOS
 
 ----------CO1----------
 {
-  "id-mio-node": "CO1-CPZ-612",
+  "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
       "pasajeros":  3,
@@ -103,7 +103,7 @@ DATOS
 
 
 {
-  "id-mio-node": "CO1-CPZ-612",
+  "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
       "pasajeros":  5,
@@ -114,7 +114,7 @@ DATOS
 }
 
 {
-  "id-mio-node": "CO1-CPZ-612",
+  "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
       "pasajeros":  7,
@@ -125,7 +125,7 @@ DATOS
 }
 
 {
-  "id-mio-node": "CO1-CPZ-612",
+  "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
       "pasajeros":  16,
@@ -141,7 +141,7 @@ DATOS
 
 
 {
-  "id-mio-node": "A13A-CPS-612",
+  "id_mio_node": "A13A-CPS-612",
   "variables": [
     {
       "pasajeros":  16,
