@@ -3,6 +3,7 @@ DATOS
 ----------E21----------
 
 {
+  "id": 1,
   "id_mio_node": "E21-CAB-345",
   "variables": [
     {
@@ -16,6 +17,7 @@ DATOS
 
 
 {
+  "id": 2,
   "id_mio_node": "E21-CAB-345",
   "variables": [
     {
@@ -28,6 +30,7 @@ DATOS
 
 
 {
+  "id": 3,
   "id_mio_node": "E21-CAB-345",
   "variables": [
     {
@@ -43,6 +46,7 @@ DATOS
 
 
 {
+  "id": 4,
   "id_mio_node": "T31-CMI-765",
   "variables": [
     {
@@ -54,6 +58,7 @@ DATOS
 }
 
 {
+  "id": 5,
   "id_mio_node": "T31-CMI-765",
   "variables": [
     {
@@ -66,6 +71,7 @@ DATOS
 }
 
 {
+  "id": 6,
   "id_mio_node": "T31-CMI-765",
   "variables": [
     {
@@ -78,6 +84,7 @@ DATOS
 }
 
 {
+  "id": 7,
   "id_mio_node": "T31-CMI-765",
   "variables": [
     {
@@ -91,6 +98,7 @@ DATOS
 
 ----------CO1----------
 {
+  "id": 8,
   "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
@@ -103,6 +111,7 @@ DATOS
 
 
 {
+  "id": 9,  
   "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
@@ -114,6 +123,7 @@ DATOS
 }
 
 {
+  "id": 10,
   "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
@@ -125,6 +135,7 @@ DATOS
 }
 
 {
+  "id": 11,
   "id_mio_node": "CO1-CPZ-612",
   "variables": [
     {
