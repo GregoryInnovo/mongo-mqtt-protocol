@@ -44,7 +44,7 @@ client.on("message", function (topic, message) {
       console.log("part1");
 
       tempConn.query(
-        "INSERT INTO datosnodo VALUES(null, ?, ?,?,?)",
+        "INSERT INTO datosnodo VALUES(?,?,?,?)",
         [json1.id_mio_node, variables, json1.alerta, json1.fechaHora],
         function (error, result) {
           //se ejecuta la inserción
