@@ -5,7 +5,7 @@ const mysql = require("mysql");
 // se crea la conexión a mysql
 const connection = mysql.createPool({
   connectionLimit: 500,
-  host: "localhost",
+  host: "ec2-50-19-200-189.compute-1.amazonaws.com",
   user: "root",
   password: "", //el password de ingreso a mysql
   database: "smartmio",
