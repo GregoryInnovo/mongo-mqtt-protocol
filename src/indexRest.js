@@ -16,7 +16,7 @@ app.use(express.json()); //se indica que se va a usar la funcionalidad para mane
 app.use(cors());
 
 //Routes
-app.use(datosNodoMongo);
+// app.use(datosNodoMongo);
 app.use(datosNodoMysql);
 
 app.listen(app.get("port"), () => {
