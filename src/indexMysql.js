@@ -8,7 +8,7 @@ console.log("Waiting for data...");
 // se crea la conexión a mysql
 const connection = mysql.createPool({
   connectionLimit: 500,
-  host: "ec2-50-19-200-189.compute-1.amazonaws.com",
+  host: "172.31.29.249",
   user: "root",
   password: "mysql", //el password de ingreso a mysql
   database: "smartmio",
